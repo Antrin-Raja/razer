@@ -6,7 +6,7 @@ This repository contains a "nodemcu_robot.ino" file which contains the code for 
 INSTRUCTIONS TO USE:
 1.	Install and open the APK file in your android device.
 
-2.	In the home screen choose you choice of control either manual or voice control.
+2.	In the home screen choose your choice of control either manual or voice control.
 
 Manual control:
 
