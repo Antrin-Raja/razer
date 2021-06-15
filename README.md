@@ -3,6 +3,25 @@ Razer is a hospital management robot which transports all needed medicines and f
 
 This repository contains a "nodemcu_robot.ino" file which contains the code for the microprocessor. All actions of the robot are defined here. There is another apk file which contains the android application where we can control the actions of robot. Instructions to use this application is provided below.
 
+
+UNDER THE HOOD:
+
+HARDWARE: 
+
+It is made up of 4 major components. 
+1. NODE MCU – We have got this so that it can work wirelessly 
+
+2. L2393D H BRIDGE MOTOR DRIVER 
+
+3. 50 RPM GEARED MOTOR – we have limited its speed to obtain maximum stability and to make sure that everything is transported in shape 
+
+4. TWO 6V, 4.5A BATTERY – just a little bit of juice to power up the robot but you can power up the robot for 2 hours on a single charge whereas it will take one hour to fully charge the battery depending upon the usage.
+
+SOFTWARE:
+
+Right now, we have programmed the nodemcu to do to basic operations like moving forward, back and the sides using Arduino IDE and then we took the complex part like voice recognition to the app we created via MIT app inventor. Now coming back to the codes! We have used C++ for programming the nodemcu (INO file) and we have used Java in programming the Application that we created. The application is secure as it keeps track of the IP address.
+
+
 INSTRUCTIONS TO USE:
 1.	Install and open the APK file in your android device.
 
